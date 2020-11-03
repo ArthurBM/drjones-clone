@@ -1,0 +1,6 @@
+@media (max-width: 1000px) {
+    #home-screen .home-banner {
+        background: url("/assets/razor-banner.png") no-repeat top;
+        background-size: contain;
+    }
+}
