@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/styles/home.css">
     <link rel="stylesheet" href="/styles/responsive.css">
     <link rel="stylesheet" href="/styles/second-page.css">
+    <link rel="stylesheet" href="/styles/products-page.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
     <title>Dr. JONES</title>
 </head>
@@ -17,35 +18,74 @@
                 <img src="/assets/logo.png" alt="logo">
             </a>
             
-            <div class="list-wrapper">
-                <a href="#">APARELHO DE BARBEAR</a>
-                <a href="#">BARBA | ROSTO</a>
-                <a href="#">CORPO | BANHO</a>
-                <a href="#">CABELOS</a>
-                <a href="#">KITS</a>
-                <a href="#">BLOG</a>
-            </div>
+            <ul>
+                <li>APARELHO DE BARBEAR</li>
+                <li>BARBA | ROSTO</li>
+                <li>CORPO | BANHO</li>
+                <li>CABELOS</li>
+                <li>KITS</li>
+                <li>BLOG</li>
+            </ul>
             
         </header>
         
         <div class="home-banner">
-            <button>COMPRAR</button>
+            <div class="buy-button-section">
+                <h2>Atinja o seu melhor barbear<br></br>por um preço justo!</h2>
+                <button onclick="location.href='https://drjones.com.br/products/the-razor'" type="button">COMPRAR</button>
+            </div>
         </div>
     </div>
 
-    
     <div class="video-section">
-        <h1>Chegamos pra irritar gigante</h1>
+        <h1>CHEGAMOS PARA IRRITAR GIGANTE</h1>
         <p>Está cansado de pagar caro por uma lâmina de barbear que dura pouco?</p>
 
         <div class="video-container">
             <iframe src="https://www.youtube.com/embed/dosDIiv8Mt4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
+    
+    <div class="title-wrapper">
+        <h1>PRODUTOS</h1>
+        <h3>Aproveite os produtos mais eficientes do mercado!</h3>
+    </div>
+
+    <div class="products-section">
+        <div class="product-container">
+            <img src="/assets/razor-product.png" alt="razor">
+            <p>THE RAZOR</p>
+            <p>Aparelho de barbear com Cabo + 4 recargas</p>
+            <p>R$36,00</p>
+        </div>
+        <div class="product-container">
+            <img src="/assets/balm-barba.png" alt="balm-barba">
+            <p>THE SHAVING SOLUTION</p>
+            <p>Balm para barbear</p>
+            <p>R$45,00</p>
+        </div>
+        <div class="product-container">
+            <img src="/assets/gel-barba.png" alt="gel">
+            <p>RECHARGE AFTER-SHAVE</p>
+            <p>Gel Pós-Barba</p>
+            <p>R$40,00</p>
+        </div>
+    </div>
 
 
 
     <footer>
+        <div class="social-media">
+            <a href="https://twitter.com/drjonesmencare" target="_blank">
+                <img src="/assets/twitter.svg" alt="twitter">
+            </a>
+            <a href="https://www.facebook.com/drjonesmencare/" target="_blank">
+                <img src="/assets/facebook.svg" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/drjonesmencare/?hl=pt-br" target="_blank">
+                <img src="/assets//instagram.svg" alt="instagram">
+            </a>
+        </div>
         <p>Made with &lt;/&gt; and &#10084; by <a href="https://github.com/ArthurBM" target="_blank">Arthur</a>  </p>
     </footer>
 </body>

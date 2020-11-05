@@ -1,5 +1,5 @@
 :root {
-    --title-color: #322153;
+    --title-color: #1b365d;
     --primary-color: #34cb69;
 }
 
@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #f0f0f5;
+    /* background: #f0f0f5; */
     -webkit-font-smoothing: antialiased;
 }
 a {
@@ -19,5 +19,9 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Ubuntu', sans-serif;
-    /* color: var(--title-color); */
+    color: var(--title-color);
+}
+
+p {
+    color: var(--title-color);
 }

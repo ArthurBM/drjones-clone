@@ -33,10 +33,3 @@
     width: 80%;
     height: 80%;
 }
-
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 24px;
-}

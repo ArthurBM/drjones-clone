@@ -1,0 +1,45 @@
+.title-wrapper {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title-wrapper h1 {
+    margin-bottom: 20px;
+}
+
+.products-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.products-section .product-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.products-section .product-container img{
+    max-width: 300px;
+}
+
+p+p+p {
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 24px;
+    background: #f0f0f5;
+    margin-top: 50px;
+}
+
+footer .social-media img {
+    width: 32px;
+    margin-right: 20px;
+}
